@@ -1,17 +1,22 @@
+// logo 圖片
 .logo a img {
   height: 40px;
 }
 
+// tab 按鈕
 .nav-custom > .nav-item > button {
+  color: $gray-800;
   outline: none !important;
   background: white !important;
   border: transparent !important;
   padding: 1rem;
   &.active {
-    border-bottom: 3px solid #ffc107 !important;
+    font-weight: 500;
+    border-bottom: 3px solid $primary !important;
   }
 }
 
+// 贊助專案表單標題裝飾
 .text-deco {
   position: relative;
   z-index: 1;
@@ -32,11 +37,13 @@
   }
 }
 
+// hamburger
 .custom-icon-circle {
   width: 30px;
   height: 30px;
 }
 
+// 按讚按鈕
 .menu-icon{
   span{
     width: 30px;
@@ -47,6 +54,8 @@
   }
 }
 
+
+// 登入 modal 去註冊的連結裝飾
 .toRegisterLink{
   position: relative;
   span{
@@ -65,9 +74,12 @@
   }
 }
 
+// 登入 modal header
 .modal-header{
   border-top: 4px solid $primary;
 }
+
+// 贊助專案表單送出按鈕
 @media (max-width: 767px) {
   .btn-form-cus{
     width: 100%;
