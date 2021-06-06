@@ -1,0 +1,54 @@
+* {
+  letter-spacing: 0.075rem;
+}
+
+.logo a img {
+  height: 40px;
+}
+
+.text-sm {
+  font-size: 0.85rem;
+}
+
+.nav-custom > .nav-item > button {
+  outline: none !important;
+  background: white !important;
+  border: transparent !important;
+  padding: 1rem;
+}
+
+.nav-custom > .nav-item > button.active {
+  border-bottom: 3px solid #ffc107 !important;
+}
+
+.text-deco {
+  position: relative;
+  z-index: 1;
+}
+
+.text-deco::before {
+  position: absolute;
+  top: calc((100% - 3px) / 2);
+  left: 0;
+  content: "";
+  width: 100%;
+  height: 3px;
+  background-color: #ffc107;
+  z-index: 0;
+}
+
+.text-deco > span {
+  background-color: #fff;
+  position: relative;
+  padding: 0 1rem;
+}
+
+.custom-icon-circle {
+  width: 30px;
+  height: 30px;
+}
+
+.rounded-4 {
+  border-radius: 0.5rem !important;
+}
+/*# sourceMappingURL=style.css.map */

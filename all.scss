@@ -1,0 +1,33 @@
+@import "bootstrap/bootstrap.scss";
+@import "index.scss";
+
+* {
+  letter-spacing: 0.075rem;
+  color: $gray-600;
+}
+
+.text-sm {
+  font-size: $font-size-sm;
+}
+
+.text-xs {
+  font-size: $font-size-xs;
+}
+
+.btn-primary {
+  color: $secondary !important;
+  &:hover {
+    background-color: $danger;
+    color: $white !important;
+  }
+}
+
+.btn-outline-secondary{
+  &:hover {
+    background-color: $primary;
+    border-color: $primary;
+    > i{
+      color: $danger;
+    }
+  }
+}
