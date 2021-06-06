@@ -27,6 +27,7 @@
   &:hover {
     background-color: $primary;
     border-color: $primary;
+    color: $secondary;
     > i{
       color: $danger;
     }
