@@ -12327,14 +12327,14 @@ fieldset:disabled .btn {
   height: 40px;
 }
 
-.nav-custom > .nav-item > button {
+.custom-nav > .nav-item > button {
   outline: none !important;
   background: white !important;
   border: transparent !important;
   padding: 1rem;
 }
 
-.nav-custom > .nav-item > button.active {
+.custom-nav > .nav-item > button.active {
   border-bottom: 3px solid #ffc107 !important;
 }
 
@@ -12360,7 +12360,7 @@ fieldset:disabled .btn {
   padding: 0 1rem;
 }
 
-.custom-icon-circle {
+.custom-aside-icon {
   width: 30px;
   height: 30px;
 }
@@ -12399,7 +12399,7 @@ fieldset:disabled .btn {
 }
 
 @media (max-width: 767px) {
-  .btn-form-cus {
+  .custom-form-btn {
     width: 100%;
   }
 }

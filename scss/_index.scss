@@ -4,7 +4,7 @@
 }
 
 // tab 按鈕
-.nav-custom > .nav-item > button {
+.custom-nav > .nav-item > button {
   color: $gray-800;
   outline: none !important;
   background: white !important;
@@ -37,14 +37,14 @@
   }
 }
 
-// hamburger
-.custom-icon-circle {
+// 右側欄 icon
+.custom-aside-icon {
   width: 30px;
   height: 30px;
 }
 
 // 按讚按鈕
-.menu-icon {
+.custom-menu-icon {
   span {
     width: 30px;
     height: 3px;
@@ -80,7 +80,7 @@
 
 // 贊助專案表單送出按鈕
 @media (max-width: 767px) {
-  .btn-form-cus {
+  .custom-form-btn {
     width: 100%;
     &.sticky {
       position: fixed;

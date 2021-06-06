@@ -11419,7 +11419,7 @@ fieldset:disabled .btn {
   height: 40px;
 }
 
-.nav-custom > .nav-item > button {
+.custom-nav > .nav-item > button {
   color: #636057;
   outline: none !important;
   background: white !important;
@@ -11427,7 +11427,7 @@ fieldset:disabled .btn {
   padding: 1rem;
 }
 
-.nav-custom > .nav-item > button.active {
+.custom-nav > .nav-item > button.active {
   font-weight: 500;
   border-bottom: 3px solid #FFDF65 !important;
 }
@@ -11454,17 +11454,17 @@ fieldset:disabled .btn {
   padding: 0 1rem;
 }
 
-.custom-icon-circle {
+.custom-aside-icon {
   width: 30px;
   height: 30px;
 }
 
-.menu-icon span {
+.custom-menu-icon span {
   width: 30px;
   height: 3px;
 }
 
-.menu-icon span + span {
+.custom-menu-icon span + span {
   margin-top: 5px;
 }
 
@@ -11493,10 +11493,10 @@ fieldset:disabled .btn {
 }
 
 @media (max-width: 767px) {
-  .btn-form-cus {
+  .custom-form-btn {
     width: 100%;
   }
-  .btn-form-cus.sticky {
+  .custom-form-btn.sticky {
     position: fixed;
     bottom: 0;
     left: 0;
@@ -11519,12 +11519,12 @@ fieldset:disabled .btn {
   font-weight: 500;
 }
 
-.card-img-cus {
+.custom-card-img {
   object-fit: cover !important;
 }
 
 @media (max-width: 992px) {
-  .card-img-cus {
+  .custom-card-img {
     height: 132px;
   }
 }
