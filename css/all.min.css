@@ -11507,6 +11507,13 @@ fieldset:disabled .btn {
   }
 }
 
+.custom-aside {
+  position: sticky;
+  overflow-y: scroll;
+  top: calc(72px + 48px);
+  height: calc(100vh - 72px - 48px - 48px - 56px);
+}
+
 .faq-no {
   letter-spacing: 0;
   font-weight: 500;
