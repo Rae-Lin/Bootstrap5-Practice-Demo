@@ -11532,6 +11532,7 @@ fieldset:disabled .btn {
 * {
   letter-spacing: 0.075rem;
   color: #494846;
+  font-family: "Noto Sans TC", sans-serif;
 }
 
 .text-sm {
@@ -11559,5 +11560,9 @@ fieldset:disabled .btn {
 
 .btn-outline-secondary:hover i.fa-heart {
   color: #FF785E !important;
+}
+
+.enFont {
+  font-family: "Baloo Tamma 2", cursive;
 }
 /*# sourceMappingURL=all.min.css.map */

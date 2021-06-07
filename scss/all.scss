@@ -5,6 +5,7 @@
 * {
   letter-spacing: 0.075rem;
   color: $gray-600;
+  font-family: "Noto Sans TC", sans-serif;
 }
 
 .text-sm {
@@ -23,13 +24,17 @@
   }
 }
 
-.btn-outline-secondary{
+.btn-outline-secondary {
   &:hover {
     background-color: $primary;
     border-color: $primary;
     color: $secondary;
-     i.fa-heart{
+    i.fa-heart {
       color: $danger !important;
     }
   }
+}
+
+.enFont {
+  font-family: "Baloo Tamma 2", cursive;
 }

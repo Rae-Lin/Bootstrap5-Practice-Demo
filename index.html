@@ -17,6 +17,10 @@
         referrerpolicy="no-referrer" />
   <link rel="stylesheet"
         href="css/all.min.css">
+  <link rel="preconnect"
+        href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Baloo+Tamma+2&family=Noto+Sans+TC&display=swap"
+        rel="stylesheet">
 </head>
 
 <body>
@@ -72,7 +76,7 @@
           </div>
           <div class="col-xl-5 col-lg-6">
             <p class="text-muted text-sm mb-2 mb-md-1">目標 NTD$600,000</p>
-            <p class="h1 mb-2">$200,047</p>
+            <p class="h1 mb-2 enFont">$200,047</p>
             <div class="progress mb-3">
               <div class="progress-bar bg-primary"
                    role="progressbar"
@@ -84,11 +88,11 @@
             <div class="row">
               <div class="col-6">
                 <p class="text-muted text-sm mb-1">贊助人數</p>
-                <p class="h1">1374人</p>
+                <p class="h1"><span class="enFont">1374</span> 人</p>
               </div>
               <div class="col-6">
                 <p class="text-muted text-sm mb-1">募資倒數</p>
-                <p class="h1">27天</p>
+                <p class="h1"><span class="enFont">27</span> 天</p>
               </div>
             </div>
             <ul class="d-flex justify-content-between justify-content-md-start p-0">
@@ -534,7 +538,7 @@
                     <p class="mb-2">2 days 20:05:20</p>
                   </div>
                   <h5 class="card-title">買一送一，只有兩百組別錯過</h5>
-                  <p class="card-title h4">NT$ 1600</p>
+                  <p class="card-title h4"><span class="enFont">NT$ 1600</span></p>
                   <div class="mb-2">
                     <span class="badge bg-light text-secondary px-3 me-1 py-1">已被贊助88次</span>
                     <span class="badge bg-secondary px-3 py-1">限量<span class="text-primary">200</span>個</span>
@@ -553,7 +557,7 @@
                     <p class="mb-2">2 days 20:05:20</p>
                   </div>
                   <h5 class="card-title">買一送一，只有兩百組別錯過</h5>
-                  <p class="card-title h4">NT$ 1600</p>
+                  <p class="card-title h4"><span class="enFont">NT$ 1600</span></p>
                   <div class="mb-2">
                     <span class="badge bg-light text-secondary px-3 me-1 py-1">已被贊助88次</span>
                     <span class="badge bg-secondary px-3 py-1">限量<span class="text-primary">200</span>個</span>
@@ -572,7 +576,7 @@
                     <p class="mb-2">2 days 20:05:20</p>
                   </div>
                   <h5 class="card-title">買一送一，只有兩百組別錯過</h5>
-                  <p class="card-title h4">NT$ 1600</p>
+                  <p class="card-title h4"><span class="enFont">NT$ 1600</span></p>
                   <div class="mb-2">
                     <span class="badge bg-light text-secondary px-3 me-1 py-1">已被贊助88次</span>
                     <span class="badge bg-secondary px-3 py-1">限量<span class="text-primary">200</span>個</span>
@@ -644,7 +648,7 @@
                 </div>
                 <div class="text-center">
                   <button type="button"
-                         id="submitBtn"
+                          id="submitBtn"
                           class="btn btn-lg btn-primary rounded-pill px-5 me-3 custom-form-btn sticky">贊助專案</button>
                 </div>
               </form>
@@ -687,7 +691,7 @@
                   <p class="mb-2">2 days 20:05:20</p>
                 </div>
                 <h5 class="card-title">買一送一，只有兩百組別錯過</h5>
-                <p class="card-title h4">NT$ 1600</p>
+                <p class="card-title h4"><span class="enFont">NT$ 1600</span></p>
                 <div class="mb-2">
                   <span class="badge bg-light text-secondary px-3 me-1 py-1">已被贊助88次</span>
                   <span class="badge bg-secondary px-3 py-1">限量<span class="text-primary">200</span>個</span>
@@ -706,7 +710,7 @@
                   <p class="mb-2">2 days 20:05:20</p>
                 </div>
                 <h5 class="card-title">買一送一，只有兩百組別錯過</h5>
-                <p class="card-title h4">NT$ 1600</p>
+                <p class="card-title h4"><span class="enFont">NT$ 1600</span></p>
                 <div class="mb-2">
                   <span class="badge bg-light text-secondary px-3 me-1 py-1">已被贊助88次</span>
                   <span class="badge bg-secondary px-3 py-1">限量<span class="text-primary">200</span>個</span>
@@ -725,7 +729,7 @@
                   <p class="mb-2">2 days 20:05:20</p>
                 </div>
                 <h5 class="card-title">買一送一，只有兩百組別錯過</h5>
-                <p class="card-title h4">NT$ 1600</p>
+                <p class="card-title h4"><span class="enFont">NT$ 1600</span></p>
                 <div class="mb-2">
                   <span class="badge bg-light text-secondary px-3 me-1 py-1">已被贊助88次</span>
                   <span class="badge bg-secondary px-3 py-1">限量<span class="text-primary">200</span>個</span>
@@ -800,15 +804,15 @@
     var formBtn = document.getElementById('submitBtn');
     document.addEventListener('scroll', function () {
 
-    var visibleBottom = window.scrollY + document.documentElement.clientHeight;
-    var visibleTop = window.scrollY;
-    var position = form.offsetTop+(form.offsetHeight);
+      var visibleBottom = window.scrollY + document.documentElement.clientHeight;
+      var visibleTop = window.scrollY;
+      var position = form.offsetTop + (form.offsetHeight);
 
       if (position > visibleTop && position < visibleBottom) {
         if (formBtn.classList.contains("sticky")) {
           formBtn.classList.remove("sticky");
         }
-      }else{
+      } else {
         if (!formBtn.classList.contains("sticky")) {
           formBtn.classList.add("sticky");
         }
